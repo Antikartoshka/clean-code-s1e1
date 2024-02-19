@@ -19,28 +19,28 @@
     <p id="addTask" class="tasks__add-task">
       <label class="tasks__add-task__new-label" for="newTask">Add Item</label>
       <div class="tasks__add-task__wrapper">
-        <input id="newTask"class="task" type="text">
+        <input id="newTask"class="task tasks__add-task__wrapper__input" type="text">
         <button>Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
+    <h3 class="header-text">Todo</h3>
     <ul id="todoTasks" class="tasks__todo">
-      <li class="text-mode">
+      <li class="text-mode item">
         <input type="checkbox"><label class="task">Pay Bills</label>
         <input type="text" class="task">
         <button class="edit">Edit</button>
         <button class="delete"><img src="./remove.svg"></button>
       </li>
-      <li class="edit-mode">
+      <li class="edit-mode item">
         <input type="checkbox"><label class="task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="task">
         <button class="edit">Save</button>
         <button class="delete"><img src="./remove.svg"></button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="header-text">Completed</h3>
     <ul id="completedTasks" class="tasks__completed>
-      <li>
+      <li class="item">
         <input type="checkbox" checked><label class="task">See the Doctor</label>
         <input type="text" class="task">
         <button class="edit">Edit</button>
